@@ -24,3 +24,17 @@ const usernameInput = 'user1';
 const passwordInput = 'password1';
 
 login(usernameInput, passwordInput);
+
+
+//Esto es un ejemplo de como se puede hacer un login con HTML y TypeScript
+document.getElementById('registro')?.addEventListener('click', () => {
+    const usernameInput = (document.getElementById('username') as HTMLInputElement).value;
+    const passwordInput = (document.getElementById('password') as HTMLInputElement).value;
+
+    if (usernameInput && passwordInput) {
+        users.push({ username: usernameInput, password: passwordInput });
+        console.log('User registered successfully');
+    } else {
+        console.log('Please enter a username and password');
+    }
+});
