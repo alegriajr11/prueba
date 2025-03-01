@@ -20,10 +20,10 @@ function login(username: string, password: string): boolean {
 }
 
 // Example usage
-const usernameInput = 'user1';
-const passwordInput = 'password1';
+const usernameInput2 = 'user1';
+const passwordInput2 = 'password1';
 
-login(usernameInput, passwordInput);
+login(usernameInput2, passwordInput2);
 
 
 //Esto es un ejemplo de como se puede hacer un login con HTML y TypeScript
