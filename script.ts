@@ -37,4 +37,11 @@ document.getElementById('registro')?.addEventListener('click', () => {
     } else {
         console.log('Please enter a username and password');
     }
+
+    //Agregando nueva funcionalidad de auth-module
+
+
+    //Agregando nueva funcionalidad de User-module
+
+    //Agregando nuevos ajustes
 });
