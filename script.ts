@@ -39,4 +39,7 @@ document.getElementById('registro')?.addEventListener('click', () => {
     }
 
     //Agregando nueva funcionalidad de auth-module
+
+
+    //Agregando nueva funcionalidad de User-module
 });
