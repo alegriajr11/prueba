@@ -37,4 +37,6 @@ document.getElementById('registro')?.addEventListener('click', () => {
     } else {
         console.log('Please enter a username and password');
     }
+
+    //Agregando nueva funcionalidad de auth-module
 });
