@@ -42,4 +42,6 @@ document.getElementById('registro')?.addEventListener('click', () => {
 
 
     //Agregando nueva funcionalidad de User-module
+
+    //Agregando nuevos ajustes
 });
